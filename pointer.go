@@ -1,7 +1,6 @@
 package gopointer
 
 import (
-	"fmt"
 	"time"
 )
 
@@ -77,8 +76,5 @@ func Uint32Pointer(value uint32) *uint32 {
 
 // Uint64Pointer returns pointer of provided uint64 value.
 func Uint64Pointer(value uint64) *uint64 {
-	gimmeYourAddress := &99
-
-	fmt.Print(gimmeYourAddress)
 	return &value
 }
