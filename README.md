@@ -19,92 +19,77 @@ import "github.com/nicklaros/gopointer"
 For boolean pointer
 
 ```
-value := true
-result := gopointer.BoolPointer(value) // result type is *bool.
+result := gopointer.BoolPointer(true) // result type is *bool.
 ```
 
 For float32 pointer
 ```
-value := float32(99.99)
-result := gopointer.Float32Pointer(value) // result type is *float32.
+result := gopointer.Float32Pointer(99.99) // result type is *float32.
 ```
 
 For float64 pointer
 ```
-value := float64(99.99)
-result := gopointer.Float64Pointer(value) // result type is *float64.
+result := gopointer.Float64Pointer(99.99) // result type is *float64.
 ```
 
 For int pointer
 ```
-value := int(99)
-result := gopointer.IntPointer(value) // result type is *int.
+result := gopointer.IntPointer(99) // result type is *int.
 ```
 
 For int8 pointer
 ```
-value := int8(99)
-result := gopointer.Int8Pointer(value) // result type is *int8.
+result := gopointer.Int8Pointer(99) // result type is *int8.
 ```
 
 For int16 pointer
 ```
-value := int16(99)
-result := gopointer.Int16Pointer(value) // result type is *int16.
+result := gopointer.Int16Pointer(99) // result type is *int16.
 ```
 
 For int32 pointer
 ```
-value := int32(99)
-result := gopointer.Int32Pointer(value) // result type is *int32.
+result := gopointer.Int32Pointer(99) // result type is *int32.
 ```
 
 For int64 pointer
 ```
-value := int64(99)
-result := gopointer.Int64Pointer(value) // result type is *int64.
+result := gopointer.Int64Pointer(99) // result type is *int64.
 ```
 
 For string pointer
 ```
-value := "Hi, you can store me in a pointer."
-result := gopointer.StringPointer(value) // result type is *string.
+result := gopointer.StringPointer("Hi, you can store me in a pointer.") // result type is *string.
 ```
 
 For time pointer
 ```
 import "time"
 
-value := time.Now()
-result := gopointer.TimePointer(value) // result type is *time
+result := gopointer.TimePointer(time.Now()) // result type is *time
 ```
 
 For uint pointer
 ```
-value := uint(99)
-result := gopointer.UintPointer(value) // result type is *uint.
+result := gopointer.UintPointer(99) // result type is *uint.
 ```
 
 For uint8 pointer
 ```
-value := uint8(99)
-result := gopointer.Uint8Pointer(value) // result type is *uint8.
+result := gopointer.Uint8Pointer(99) // result type is *uint8.
 ```
 
 For uint16 pointer
 ```
-value := uint16(99)
-result := gopointer.Uint16Pointer(value) // result type is *uint16.
+result := gopointer.Uint16Pointer(99) // result type is *uint16.
 ```
 
 For uint32 pointer
 ```
-value := uint32(99)
-result := gopointer.Uint32Pointer(value) // result type is *uint32.
+result := gopointer.Uint32Pointer(99) // result type is *uint32.
 ```
 
 For uint64 pointer
 ```
-value := uint64(99)
-result := gopointer.Uint64Pointer(value) // result type is *uint64.
+result := gopointer.Uint64Pointer(99) // result type is *uint64.
 ```
